@@ -7,7 +7,7 @@
     <PackageTags>file converter;document to markdown;PDF to markdown;Office to markdown;.NET library;text processing;document parsing</PackageTags>
     <Authors>AllToMarkdown Contributors</Authors>
     <RepositoryUrl>https://github.com/yourusername/AllToMarkdown</RepositoryUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,6 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
