@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Title>AllToMarkdown</Title>
+    <Description>A comprehensive .NET library for converting various document formats to Markdown. Supports text files, Microsoft Office documents, OpenDocument formats, PDFs, and email files.</Description>
+    <PackageTags>file converter;document to markdown;PDF to markdown;Office to markdown;.NET library;text processing;document parsing</PackageTags>
+    <Authors>AllToMarkdown Contributors</Authors>
+    <RepositoryUrl>https://github.com/yourusername/AllToMarkdown</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BracketPipe" Version="0.7.7232.28997" />
+    <PackageReference Include="CsvHelper" Version="33.1.0" />
+    <PackageReference Include="DocSharp.Binary.Doc" Version="0.17.0" />
+    <PackageReference Include="DocSharp.Binary.Ppt" Version="0.17.0" />
+    <PackageReference Include="DocSharp.Binary.Xls" Version="0.17.0" />
+    <PackageReference Include="DocSharp.Common" Version="0.17.0" />
+    <PackageReference Include="DocSharp.Docx" Version="0.17.0" />
+    <PackageReference Include="DocSharp.Markdown" Version="0.17.0" />
+    <PackageReference Include="MimeKit" Version="4.14.0" />
+    <PackageReference Include="PdfPig" Version="0.1.13" />
+    <PackageReference Include="RtfPipe" Version="2.0.7677.4303" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+
+</Project>
